@@ -1,0 +1,45 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    background-image: url(https://img.freepik.com/fotos-premium/3d-render-wallpaper-simbolo-matematico-escuro-com-foco-no-pi-vermelho_361738-11.jpg);
+    justify-content: center;
+    height: 150px;
+    font-size: 25px;
+    font-weight: 700;
+    }
+    
+    h1, p{
+    text-align: center;
+    margin-top: 10px;
+    }
+    
+    .calculo {
+    text-align: center;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgb(185, 200, 243);
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-right: 15%;
+    transform: translate(-25%, -25%)
+    }
+    
+    input {
+    padding: 15px;
+    margin: 10px 10px 10px;
+    }
+    
+    button {
+    margin-left: 2px;
+    padding: 2px;
+    cursor: pointer;
+    background-color: #020e26;
+    color: rgba(153, 214, 238, 0.938);
+    border-radius: 10px;
+    font-size: 1.1rem;
+    transition: .2s;
+    }
